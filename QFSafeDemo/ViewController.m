@@ -16,14 +16,26 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    NSMutableArray *testArray = [NSMutableArray arrayWithObject:@"1"];
+    [testArray addObject:nil];
+    
+    [testArray replaceObjectAtIndex:0 withObject:nil];
+    
+    [testArray replaceObjectAtIndex:2 withObject:@"1"];
+
+    id a = [testArray objectAtIndex:5];
+    
+    id b =testArray[5];
+    
+    [testArray insertObject:nil atIndex:0];
+    
+    [testArray insertObject:@"2" atIndex:10];
+
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 
 
 @end

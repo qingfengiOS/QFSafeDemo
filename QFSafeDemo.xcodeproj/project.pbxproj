@@ -15,6 +15,7 @@
 		FD0D54D0205AA79A00FDB6A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0D54CF205AA79A00FDB6A8 /* main.m */; };
 		FD0D54DA205AA79A00FDB6A8 /* QFSafeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0D54D9205AA79A00FDB6A8 /* QFSafeDemoTests.m */; };
 		FD0D54E5205AA79A00FDB6A8 /* QFSafeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0D54E4205AA79A00FDB6A8 /* QFSafeDemoUITests.m */; };
+		FD0D54F4205AA7BF00FDB6A8 /* NSMutableArray+SafeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0D54F3205AA7BF00FDB6A8 /* NSMutableArray+SafeArray.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		FD0D54E0205AA79A00FDB6A8 /* QFSafeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QFSafeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD0D54E4205AA79A00FDB6A8 /* QFSafeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QFSafeDemoUITests.m; sourceTree = "<group>"; };
 		FD0D54E6205AA79A00FDB6A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD0D54F2205AA7BF00FDB6A8 /* NSMutableArray+SafeArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SafeArray.h"; sourceTree = "<group>"; };
+		FD0D54F3205AA7BF00FDB6A8 /* NSMutableArray+SafeArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SafeArray.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				FD0D54C1205AA79A00FDB6A8 /* AppDelegate.m */,
 				FD0D54C3205AA79A00FDB6A8 /* ViewController.h */,
 				FD0D54C4205AA79A00FDB6A8 /* ViewController.m */,
+				FD0D54F2205AA7BF00FDB6A8 /* NSMutableArray+SafeArray.h */,
+				FD0D54F3205AA7BF00FDB6A8 /* NSMutableArray+SafeArray.m */,
 				FD0D54C6205AA79A00FDB6A8 /* Main.storyboard */,
 				FD0D54C9205AA79A00FDB6A8 /* Assets.xcassets */,
 				FD0D54CB205AA79A00FDB6A8 /* LaunchScreen.storyboard */,
@@ -265,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD0D54F4205AA7BF00FDB6A8 /* NSMutableArray+SafeArray.m in Sources */,
 				FD0D54C5205AA79A00FDB6A8 /* ViewController.m in Sources */,
 				FD0D54D0205AA79A00FDB6A8 /* main.m in Sources */,
 				FD0D54C2205AA79A00FDB6A8 /* AppDelegate.m in Sources */,
@@ -431,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
 				INFOPLIST_FILE = QFSafeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-qingfengiOS.QFSafeDemo";
@@ -444,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
 				INFOPLIST_FILE = QFSafeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-qingfengiOS.QFSafeDemo";
