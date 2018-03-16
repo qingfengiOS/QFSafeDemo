@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		858B8E65205B5A1100B16592 /* NSMutableDictionary+SafeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 858B8E64205B5A1100B16592 /* NSMutableDictionary+SafeDictionary.m */; };
 		FD0D54C2205AA79A00FDB6A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0D54C1205AA79A00FDB6A8 /* AppDelegate.m */; };
 		FD0D54C5205AA79A00FDB6A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0D54C4205AA79A00FDB6A8 /* ViewController.m */; };
 		FD0D54C8205AA79A00FDB6A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0D54C6205AA79A00FDB6A8 /* Main.storyboard */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		858B8E63205B5A1000B16592 /* NSMutableDictionary+SafeDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+SafeDictionary.h"; sourceTree = "<group>"; };
+		858B8E64205B5A1100B16592 /* NSMutableDictionary+SafeDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+SafeDictionary.m"; sourceTree = "<group>"; };
 		FD0D54BD205AA79A00FDB6A8 /* QFSafeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QFSafeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD0D54C0205AA79A00FDB6A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FD0D54C1205AA79A00FDB6A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				FD0D54C4205AA79A00FDB6A8 /* ViewController.m */,
 				FD0D54F2205AA7BF00FDB6A8 /* NSMutableArray+SafeArray.h */,
 				FD0D54F3205AA7BF00FDB6A8 /* NSMutableArray+SafeArray.m */,
+				858B8E63205B5A1000B16592 /* NSMutableDictionary+SafeDictionary.h */,
+				858B8E64205B5A1100B16592 /* NSMutableDictionary+SafeDictionary.m */,
 				FD0D54C6205AA79A00FDB6A8 /* Main.storyboard */,
 				FD0D54C9205AA79A00FDB6A8 /* Assets.xcassets */,
 				FD0D54CB205AA79A00FDB6A8 /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 				FD0D54C5205AA79A00FDB6A8 /* ViewController.m in Sources */,
 				FD0D54D0205AA79A00FDB6A8 /* main.m in Sources */,
 				FD0D54C2205AA79A00FDB6A8 /* AppDelegate.m in Sources */,
+				858B8E65205B5A1100B16592 /* NSMutableDictionary+SafeDictionary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
