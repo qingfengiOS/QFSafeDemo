@@ -26,7 +26,7 @@
 
     id a = [testArray objectAtIndex:5];
     
-    id b =testArray[5];
+    id b = testArray[5];
     
     [testArray insertObject:nil atIndex:0];
     

@@ -28,9 +28,9 @@
         method_exchangeImplementations(objectAtIndexMethod, safeObjectAtIndexMethod);
         
         
-        Method objectAtIndexedSubscriptMethod = class_getInstanceMethod(objc_getClass("__NSArrayM"), @selector(objectAtIndexedSubscript:));
-        Method safeObjectAtIndexedSubscriptMethod = class_getInstanceMethod(objc_getClass("__NSArrayM"), @selector(safeObjectAtIndexedSubscript:));
-        method_exchangeImplementations(objectAtIndexedSubscriptMethod, safeObjectAtIndexedSubscriptMethod);
+//        Method objectAtIndexedSubscriptMethod = class_getInstanceMethod(objc_getClass("__NSArrayM"), @selector(objectAtIndexedSubscript:));
+//        Method safeObjectAtIndexedSubscriptMethod = class_getInstanceMethod(objc_getClass("__NSArrayM"), @selector(safeObjectAtIndexedSubscript:));
+//        method_exchangeImplementations(objectAtIndexedSubscriptMethod, safeObjectAtIndexedSubscriptMethod);
 
         Method insertMethod = class_getInstanceMethod(objc_getClass("__NSArrayM"), @selector(insertObject:atIndex:));
         Method safeInsertMethod = class_getInstanceMethod(objc_getClass("__NSArrayM"), @selector(safeInsertObject:atIndex:));
