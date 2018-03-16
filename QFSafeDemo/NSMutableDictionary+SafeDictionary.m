@@ -26,8 +26,8 @@
 
 - (id)safeObjectForKey:(id)aKey {
     id value = [self safeObjectForKey:aKey];
-    if (value == nil || [value isKindOfClass:[NSNull class]]) {
-        return value;
+    if ([value isKindOfClass:[NSNull class]]) {
+        return nil;
     }
     return value;
 }
