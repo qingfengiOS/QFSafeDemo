@@ -18,12 +18,29 @@
     [super viewDidLoad];
 
 //    [self testArray];
-    
     [self testDictionary];
+    
+//    [self testMutableArray];
+//    [self testMutableDictionary];
+    
+}
+- (void)testArray {
+    NSArray *testArray = [NSArray array];
+    
+    id a = [testArray objectAtIndex:5];
+    
+    id b = testArray[5];
 }
 
+- (void)testDictionary {
+    NSDictionary *testDic = [NSDictionary dictionary];
+    
+    id a = [testDic objectForKey:@"key"];
+    id b = testDic[@"key2"];
+    NSLog(@"%@-%@",a,b);
+}
 
-- (void)testArray {
+- (void)testMutableArray {
     NSMutableArray *testArray = [NSMutableArray arrayWithObject:@"1"];
     [testArray addObject:nil];
     
@@ -41,7 +58,7 @@
 }
 
 
-- (void)testDictionary {
+- (void)testMutableDictionary {
     NSMutableDictionary *testDic = [NSMutableDictionary dictionary];
     
     id a = [testDic objectForKey:@"key"];
